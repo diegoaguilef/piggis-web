@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: piggis-web_production
-  username: piggis-web
-  password: <%= ENV['PIGGIS-WEB_DATABASE_PASSWORD'] %>
+  host: ec2-54-243-46-32.compute-1.amazonaws.com
+  database: dqh5034ig0l5c
+  username: efzgepgltgtqno
+  password: <%= ENV['DDBB_PASSWORD'] %>
