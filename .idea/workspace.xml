@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec689dae-a9c8-4fc7-a087-ddd37b9373f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,23 +24,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="1" />
-          <entry key="rb" value="1" />
+          <entry key="rb" value="2" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Ruby" value="2" />
+          <entry key="Ruby" value="3" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="rb" value="5" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Ruby" value="5" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
@@ -57,11 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+            <state relative-caret-position="1275">
+              <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -80,6 +91,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -88,6 +100,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -261,12 +280,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540959190836</updated>
-      <workItem from="1540959192080" duration="615000" />
+      <workItem from="1540959192080" duration="987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="615000" />
+    <option name="totallyTimeSpent" value="987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -312,8 +331,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+        <state relative-caret-position="1275">
+          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
