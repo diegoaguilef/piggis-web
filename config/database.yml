@@ -20,10 +20,12 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-
+  password: <%= ENV['DDBB_PIGGIS_HEROKU'] %>
+  host: ec2-54-243-46-32.compute-1.amazonaws.com
+  database: dqh5034ig0l5c
+  username: efzgepgltgtqno
 development:
   <<: *default
-  database: piggis-web_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -80,7 +82,4 @@ test:
 #
 production:
   <<: *default
-  host: ec2-54-243-46-32.compute-1.amazonaws.com
-  database: dqh5034ig0l5c
-  username: efzgepgltgtqno
-  password: <%= ENV['DDBB_PASSWORD'] %>
+
