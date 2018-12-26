@@ -27,11 +27,15 @@
          <li class="nav-heading">
             <span>Contenidos</span>
          </li>
-         <li class="<%= 'active' if controller?('singleview') && action?('index') %>">
+         <li class="<%= 'active' if controller?('home') && action?('index') %>">
             <a href="/singleview" title="Single View">
                <em class="fa fa-home"></em>
                <span>Inicio</span>
             </a>
+           <%= link_to home_xat_path do %>
+           <emc class="fa fa-fw fa-comments"></emc>
+             <span>PiggisChat</span>
+           <% end %>
          </li>
       </ul>
       <!-- END sidebar nav-->

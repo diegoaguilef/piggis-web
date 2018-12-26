@@ -32,7 +32,7 @@ module Angle
     # fonts
     config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
     # images
-    config.assets.precompile << /\.(?:png|jpg)$/
+    config.assets.precompile << /\.(?:png|jpg|ico)$/
     # precompile vendor assets
     config.assets.precompile += %w( base.js )
     config.assets.precompile += %w( base.css )
@@ -49,9 +49,9 @@ module Angle
     # Controller assets
     config.assets.precompile += [
                                  # Scripts
-                                 'singleview.js',
+                                 'home.js',
                                  # Stylesheets
-                                 'singleview.css'
+                                 'home.css'
                                 ]
 
   end
