@@ -2,9 +2,6 @@
     "name": "piggis",
     "version": "1.0.0",
     "description": "piggis-web",
-    "engines": {
-        "yarn": "1.6.0"
-    },
     "author": "DiegoAguilef",
     "license": "https://wrapbootstrap.com/help/licenses",
     "private": true,
