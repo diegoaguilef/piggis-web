@@ -20,10 +20,11 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  password: <%= ENV['DDBB_PIGGIS_HEROKU'] %>
-  host: ec2-54-243-46-32.compute-1.amazonaws.com
-  database: dqh5034ig0l5c
-  username: efzgepgltgtqno
+  password: postgres
+  host: db
+  port: 5432
+  database: piggis_web_development
+  username: postgres
 development:
   <<: *default
 
