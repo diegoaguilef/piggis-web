@@ -1,17 +1,13 @@
 version: '3'
 services:
-  db:
-    image: postgres
-    volumes:
-      - /var/lib/postgresql/data:/var/lib/postgresql/data
   web:
+    environment:
+      - POSTGRES_PASSWORD=diego123
     build: .
     command: /bin/sh init.sh
     volumes:
       - .:/piggisweb
     ports:
       - "3021:3000"
-    depends_on:
-      - db
-volumes:
-  db:
+    external_links:
+      - postgres_db:postgres
