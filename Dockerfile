@@ -8,9 +8,10 @@ RUN mkdir /usr/src/app/
 WORKDIR /usr/src/app/
 ADD Gemfile /usr/src/app/Gemfile
 ADD Gemfile.lock /usr/src/app/Gemfile.lock
+ADD package.json /usr/src/app/package.json
+ADD yarn.lock /usr/src/app/yarn.lock
 RUN RAILS_ENV=production bundle install
 ADD . /usr/src/app/
 RUN yarn install
-RUN bundle install
 EXPOSE 3000
 
