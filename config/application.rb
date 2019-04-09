@@ -32,7 +32,7 @@ module Angle
     # fonts
     config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
     # images
-    config.assets.precompile << /\.(?:png|jpg|ico)$/
+    config.assets.precompile << /\.(?:png|jpg|jpeg|ico)$/
     # precompile vendor assets
     config.assets.precompile += %w( base.js )
     config.assets.precompile += %w( base.css )
