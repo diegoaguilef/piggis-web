@@ -4,6 +4,7 @@ services:
     environment:
       - SECRET_KEY_BASE=50afad71ed8d56dd81a6d91f0e17e57226865dea7cc5e3cf1209b806f324dccecf1c41ca5b6c370430b714a53e8578fcfe0be2f90ebb70dfa5b65c97f37e3321
       - POSTGRES_PASSWORD=diego123
+      - RAILS_SERVE_STATIC_FILES=true
     build: .
     command: /bin/sh init.sh
     volumes:
