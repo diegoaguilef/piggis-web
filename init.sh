@@ -3,8 +3,6 @@ set -e
 if [ -f tmp/pids/server.pid ]; then
   rm tmp/pids/server.pid
 fi
-RAILS_ENV=production rails secret
-RAILS_ENV=production bundle exec rails assets:clobber
 RAILS_ENV=production bundle exec rails assets:precompile
 RAILS_ENV=production bundle exec rails assets:clean
 RAILS_ENV=production bundle exec rails db:migrate
